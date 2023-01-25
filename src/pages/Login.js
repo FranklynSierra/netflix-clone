@@ -39,11 +39,8 @@ const Login = () => {
                                 <input onChange={(e)=>setEmail(e.target.value)} className=' py-4 my-6 bg-gray-700 rounded' type='email'placeholder='Email' autoComplete='email'/>
                                 <input onChange={(e)=>setPassword(e.target.value)} className=' py-4 my-6 bg-gray-700 rounded' type='password'placeholder='Password'/>
                                 <button className='bg-red-600 py-3 my-6 rounded font-bold'>Sign In</button>
-                                <div className='flex justify-between items-center text-sm text-gray-600'>
-                                <p><input className='mr-2'type='checkbox' />/Remember</p>
-                            <p>Need Help?</p>
-                           </div>
-                           <p className='py-8 '><span className='text-gray-600'>Are you new to Netflix?  </span><Link to='/signup'>Sign Up</Link></p>
+                        
+                           <p className='py-8 '><span className='text-gray-600'>Are you new to Netflix?  </span><Link to='/netflix-signup'>Sign Up</Link></p>
                             </form>
                            </div>  
                     </div>
